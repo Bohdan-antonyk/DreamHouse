@@ -1,0 +1,385 @@
+/*обнуляючі стилі*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.01em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul, li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  background-color: inherit;
+  border: none;
+  font-weight: 600;
+}
+
+button:hover {
+  background-color: #FFFFFF;
+  transition: 0.5s ease-in-out;
+  color: #FD665E;
+  border: 1px solid #FD665E;
+  font-weight: 600;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
+
+.main_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #FD665E;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-weight: 500;
+  padding: 19px 34px;
+}
+
+/*стилі загальні*/
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 50px;
+
+}
+
+.header {
+  min-height: 96px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0;
+
+  color: #585858;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  color: #FD665E;
+  margin-right: 0;
+  font-size: 21px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  line-height: 0.6;
+}
+
+.logo span {
+  display: flex;
+  margin-left: 10px;
+  color: #FD665E;
+  margin-right: 40px;
+  font-size: 21px;
+  font-weight: 700;
+  flex-direction: column;
+  line-height: 0.6;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+
+}
+
+.navigation ul {
+  display: flex;
+}
+
+.navigation ul li, .header_right_button {
+  padding: 4px 20px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  margin: 0 3px;
+  border: none;
+}
+
+.navigation ul li:hover, .header_right_button:hover {
+  border: 1px solid #FD665E;
+  border-radius: 4px;
+  transition: 0.5s ease-in-out;
+}
+
+.header_right_button {
+  margin: 0 0;
+  line-height: 40px;
+}
+
+.sign_up {
+  background: #FD665E;
+  border-radius: 4px;
+  padding: 4px 24px;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+
+
+/*секція №1*/
+
+.section_one {
+  margin-bottom: 110px;
+}
+
+.main_title {
+  font-weight: 700;
+  font-size: 112px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  color: #000000;
+  margin-top: 47px;
+  margin-left: 117px;
+  margin-bottom: 45px;
+}
+
+.color_tomato {
+  color: #FD665E;
+  margin-left: 0;
+}
+
+.wrapper_secondPart_sectionOne {
+  display: flex;
+  margin-left: 115px;
+}
+
+.left_side_sectionOne {
+  max-width: 345px;
+}
+
+h3 {
+  margin-right: 55px;
+  margin-bottom: 47px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 165%;
+  margin-top: 10px;
+}
+
+/*секція 2*/
+
+.section_two {
+  margin-top: 100px;
+}
+
+.title_second {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Merriweather', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 124%;
+  letter-spacing: -0.04em;
+  margin-left: -50px;
+  margin-bottom: 40px;
+}
+
+.wrapper_images_section_two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*секція 3*/
+
+.section_three {
+  margin-top: 130px;
+  margin-left: 115px;
+  margin-bottom: 65px;
+}
+
+.title_three {
+  font-family: 'Merriweather', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 124%;
+  letter-spacing: -0.04em;
+  margin-bottom: 40px;
+}
+
+.wrapper_secondPart_section_three {
+  display: flex;
+  align-items: center;
+}
+
+.our_benefits {
+  margin-left: 159px;
+  margin-top: -44px;
+}
+
+.our_benefits ul {
+  margin-bottom: 30px;
+}
+
+.our_benefits li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.our_benefits li img {
+  margin-top: -25px;
+}
+
+.wrapper_outBenefits {
+  margin-left: 32px;
+}
+
+.title_benefits {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0.01em;
+  margin-bottom: 8px;
+  /*line-height: 25.6px;*/
+}
+
+.wrapper_outBenefits p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0.01em;
+  max-width: 305px;
+  /*line-height: 25.6px;*/
+}
+
+.our_benefits .main_button {
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+/*Секція 4*/
+
+.section_four {
+  min-height: 1020px;
+  width: 1540px;
+  background: linear-gradient(180deg, #F9F9F9 22.12%, rgba(249, 249, 249, 0) 100%);
+  margin-left: 115px;
+  display: flex;
+  align-items: center;
+}
+
+.container_second {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper_sectionFour {
+  display: flex;
+  border-bottom: 1px solid #F0F0F0;
+  padding-bottom: 57px;
+
+}
+
+.wrapper_sectionFour img {
+  margin-left: 315px;
+  position: relative;
+  margin-top: 70px;
+}
+
+.wrapper_sectionFour_info {
+  margin-left: 144px;
+  margin-top: 280px;
+}
+
+.wrapper_sectionFour_info .title_four {
+  font-family: 'Merriweather', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59.52px;
+  letter-spacing: -0.04em;
+  margin-bottom: 65px;
+}
+
+.wrapper_sectionFour_info .title_four span {
+  color: #FD665E;
+}
+
+/*footer*/
+
+.footer {
+  margin: 0 107px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 200px;
+}
+
+.left_side_footer, .footer .logo {
+  margin-top: 22px;
+}
+
+.left_side_footer ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 170px;
+}
+
+.left_side_footer ul li {
+  margin-right: 42px;
+}
+
+.left_side_footer ul li a:hover {
+  color: #FD665E;
+  transition: 0.5s ease-in-out;
+}
+
+.left_side_footer ul li a {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #585858;
+}
